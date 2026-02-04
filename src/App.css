@@ -1,0 +1,33 @@
+.app {
+  margin: 0 auto;
+  max-width: 820px;
+  padding: 48px 20px;
+}
+
+.meta {
+  display: grid;
+  gap: 12px;
+  margin: 24px 0;
+}
+
+.meta > div {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  padding: 12px 14px;
+}
+
+.meta span {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 600;
+}
+
+.meta code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    'Liberation Mono', 'Courier New', monospace;
+}
+
