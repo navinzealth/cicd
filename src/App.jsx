@@ -11,7 +11,7 @@ export default function App() {
 
   return (
     <div className="app">
-      <h1>AWS CI/CD React</h1>
+      <h1>AWS CI/CD React by Naveen</h1>
       <p>This app is deployed from GitHub Actions to an EC2 instance.</p>
 
       <div className="meta">
